@@ -13,58 +13,43 @@ interface SkillGroup {
 
 const skillGroups: SkillGroup[] = [
   {
-    category: "Frontend",
+    category: "Data Science",
     skills: [
-      { name: "HTML", level: 95 },
-      { name: "CSS", level: 90 },
-      { name: "JavaScript", level: 88 },
-      { name: "React", level: 85 },
-      { name: "Tailwind CSS", level: 90 },
+      { name: "Python", level: 85 },
+      { name: "Pandas", level: 82 },
+      { name: "NumPy", level: 80 },
+      { name: "Data Analysis (EDA)", level: 85 },
+      { name: "Data Visualization", level: 78 },
     ],
   },
   {
-    category: "Backend",
+    category: "Machine Learning",
     skills: [
-      { name: "Node.js", level: 80 },
-      { name: "Express.js", level: 78 },
-      { name: "MongoDB", level: 75 },
+      { name: "Scikit-learn", level: 78 },
+      { name: "Feature Engineering", level: 75 },
+      { name: "Model Evaluation", level: 80 },
+      { name: "Regression & Classification", level: 82 },
     ],
   },
   {
-    category: "AI / ML",
+    category: "Artificial Intelligence",
     skills: [
-      { name: "OpenAI API", level: 70 },
-      { name: "Python Basics", level: 65 },
+      { name: "Large Language Models (LLMs)", level: 75 },
+      { name: "OpenAI API", level: 78 },
+      { name: "Prompt Engineering", level: 80 },
+      { name: "AI Integration", level: 76 },
     ],
   },
   {
-    category: "Other",
+    category: "Engineering & Tools",
     skills: [
+      { name: "FastAPI / REST APIs", level: 78 },
       { name: "Git & GitHub", level: 88 },
-      { name: "REST APIs", level: 85 },
       { name: "Firebase", level: 72 },
+      { name: "React (for AI UIs)", level: 75 },
     ],
   },
 ];
-
-const SkillBar = ({ name, level, delay }: { name: string; level: number; delay: number }) => (
-  <div className="mb-4">
-    <div className="flex justify-between mb-1.5">
-      <span className="font-body text-sm text-foreground">{name}</span>
-      <span className="font-body text-xs text-muted-foreground">{level}%</span>
-    </div>
-    <div className="h-2 bg-secondary rounded-full overflow-hidden">
-      <motion.div
-        initial={{ width: 0 }}
-        whileInView={{ width: `${level}%` }}
-        viewport={{ once: true }}
-        transition={{ duration: 1, delay, ease: "easeOut" }}
-        className="h-full rounded-full"
-        style={{ background: "var(--gradient-primary)" }}
-      />
-    </div>
-  </div>
-);
 
 const Skills = () => (
   <SectionWrapper>
