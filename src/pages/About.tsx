@@ -1,12 +1,23 @@
 import SectionWrapper from "@/components/SectionWrapper";
 import { motion } from "framer-motion";
 import { Code, Brain, Rocket } from "lucide-react";
-import profileImg from "@/assets/profile.jpg";
-
+import profileImg from "@/assets/profile.png";
 const highlights = [
-  { icon: Code, title: "Clean Code", desc: "Writing maintainable, scalable code with modern best practices." },
-  { icon: Brain, title: "AI Integration", desc: "Leveraging AI technologies to build smarter applications." },
-  { icon: Rocket, title: "Fast Delivery", desc: "Shipping pixel-perfect products from idea to production." },
+  {
+    icon: Brain,
+    title: "Machine Learning & AI",
+    desc: "Designing intelligent systems using machine learning and deep learning techniques."
+  },
+  {
+    icon: Code,
+    title: "AI-Powered Development",
+    desc: "Integrating AI models and APIs into real-world applications."
+  },
+  {
+    icon: Rocket,
+    title: "From Idea to Prototype",
+    desc: "Turning AI ideas into working prototypes and proof-of-concepts."
+  },
 ];
 
 const About = () => (
@@ -28,13 +39,10 @@ const About = () => (
 
       <div>
         <p className="text-muted-foreground leading-relaxed text-lg font-body mb-4">
-          I am a passionate Full-Stack Web Developer with experience in building responsive and interactive websites.
-          I love coding, learning AI technologies, and creating solutions that help people. I enjoy solving problems
-          and continuously improving my skills.
+         I’m a Data Scientist who transforms complex data into actionable insights using machine learning and AI. I build data-driven solutions that help businesses and people make smarter decisions. Let’s create something powerful together.
         </p>
         <p className="text-muted-foreground leading-relaxed font-body">
-          Whether it's crafting a sleek frontend, engineering a robust API, or exploring the cutting edge of
-          artificial intelligence, I thrive on turning complex challenges into elegant, user-friendly experiences.
+         I turn complex problems into intuitive, AI-driven solutions by exploring and applying cutting-edge artificial intelligence.
         </p>
       </div>
     </div>
