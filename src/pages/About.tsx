@@ -5,18 +5,18 @@ import profileImg from "@/assets/profile.png";
 const highlights = [
   {
     icon: Brain,
-    title: "Machine Learning & AI",
-    desc: "Designing intelligent systems using machine learning and deep learning techniques."
+    title: "Data Science, ML & AI",
+    desc: "Applying data analysis, machine learning, and deep learning techniques to extract insights and build intelligent systems."
   },
   {
     icon: Code,
-    title: "AI-Powered Development",
-    desc: "Integrating AI models and APIs into real-world applications."
+    title: "AI-Driven Development",
+    desc: "Building and integrating AI models, pipelines, and APIs into real-world, scalable applications."
   },
   {
     icon: Rocket,
-    title: "From Idea to Prototype",
-    desc: "Turning AI ideas into working prototypes and proof-of-concepts."
+    title: "From Data to Deployment",
+    desc: "Transforming raw data and AI ideas into deployed prototypes and production-ready solutions."
   },
 ];
 
