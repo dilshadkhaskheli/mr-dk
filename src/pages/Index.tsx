@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, Github, Linkedin, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/profile.png";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Index = () => {
@@ -28,16 +28,14 @@ const Index = () => {
             className="flex-1 text-center md:text-left"
           >
             <p className="text-primary font-body text-sm tracking-widest uppercase mb-3">
-              Full-Stack Web Developer & AI Enthusiast
+              Data Scientist & AI Enthusiast
             </p>
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Hi, I'm{" "}
               <span className="text-gradient">Dilshad Khaskheli</span>
             </h1>
             <p className="text-muted-foreground text-lg max-w-lg mb-8">
-              I build responsive, interactive web experiences and explore
-              AI-driven solutions that help people. Let's create something
-              amazing together.
+              I’m a Data Scientist who transforms complex data into actionable insights using machine learning and AI. I build data-driven solutions that help businesses and people make smarter decisions. Let’s create something powerful together.
             </p>
 
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
